@@ -1,0 +1,402 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: SF Pro Display;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#navbar {
+    height: 7vh;
+    width: 100%;
+    background-color: rgba(8, 8, 9, 0.586);
+    position: fixed;
+    z-index: 999;
+}
+
+#nav-contant {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 3.2vw;
+    margin: 0vw 17vw;
+}
+
+#nav-contant a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav-contant #apple {
+    color: white;
+}
+
+#nav-contant i {
+    color: grey;
+}
+
+#part1 {
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#part1 img {
+    height: 100%;
+    width: 100%;
+}
+
+#part1 .heading-box {
+    position: absolute;
+    color: white;
+    margin-top: -29vw;
+}
+
+.heading-box h1 {
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+.heading-box h3 {
+    text-align: center;
+    font-size: 2.3vw;
+    margin-bottom: 1vw;
+}
+
+.heading-box .learn {
+    margin-left: 9vw;
+    display: flex;
+    text-align: center;
+    gap: 3vw;
+    font-size: 1.4vw;
+
+}
+
+.learn a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+#part2 {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    
+}
+
+#part2 img {
+    height: 100%;
+    width: 100%;;   
+}
+
+#part2 #heading {
+    position: absolute;
+    color: black;
+    margin-top: -23vw;
+}
+
+#heading h2 {
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+#heading h3 {
+    text-align: center;
+    font-size: 2.3vw;
+    margin-bottom: .1 vw;
+}
+
+#heading #learn {
+    margin-left: 14vw;
+    display: flex;
+    text-align: center;
+    gap: 3vw;
+    font-size: 1.4vw;
+
+}
+
+#learn a {
+    text-decoration: none;
+    color: rgb(29, 121, 241);
+}
+
+#part3 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#video-contant {
+    height: 19vh;
+    width: 100%;
+    /* background-color: blue; */
+    margin-bottom: -25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 99;
+}
+
+#video-img {
+    height: 100%;
+    width: 20%;
+    /* background-color: aqua; */
+}
+
+#video-img img {
+    height: 100%;
+    width: 100%;
+}
+
+#video-contant h1 {
+    margin-top: 1vw;
+    text-transform: capitalize;
+    font-size: 1.5vw;
+    color: white;
+}
+
+#video-contant #video-button {
+    display: flex;
+    gap: 2vw;
+    margin-top: 1vw;
+
+}
+
+#video-button button {
+    height: 2vw;
+    width: 5vw;
+    border: none;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer;
+}
+#video-button a{
+    text-decoration: none;
+    color: #000;
+}
+#video-button #left {
+    height: 2.3vw;
+    width: 6vw;
+    border-radius: 20px;
+}
+
+#video-button #right {
+    height: 2.3vw;
+    width: 4vw;
+    margin-top: 1px;
+    border-radius: 20px;
+}
+
+#part3 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+#part4 {
+    height: 145vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+#all-contant {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0vw 1vw;
+
+}
+
+.box {
+    height: 70vh;
+    width: 49%;
+    background-color: blue;
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.box img {
+    height: 100%;
+    width: 100%;
+}
+
+.head-img {
+    height: 10vh;
+    width: 100%;
+    /* background-color: aqua; */
+    margin: 1vw;
+    position: absolute;
+    margin-bottom: 30vw;
+    margin-top: 2.5vw;
+
+}
+
+.head-img img {
+    height: 100%;
+    width: 40%;
+    margin-left: 14vw;
+}
+
+.head {
+    text-align: center;
+    text-transform: capitalize;
+    position: absolute;
+    margin-left: 15vw;
+    margin-bottom: 21vw;
+    margin-top: 2vw;
+}
+
+.heading h1 {
+    font-weight: 100;
+    font-size: 1.7vw;
+}
+
+.header-btn {
+    display: flex;
+    position: absolute;
+    margin-bottom: 15vw;
+    margin-left: 19vw;
+    gap: 5vh;
+}
+
+.header-btn a {
+    text-decoration: none;
+    color: rgb(80, 180, 219);
+    font-size: 1.3vw;
+}
+
+#head-heading1 {
+    /* background-color: hotpink; */
+    text-align: center;
+    margin-top: 1.5vw;
+    margin-left: -1vw;
+}
+
+#head-heading1 h1 {
+    padding-top: .7vw;
+    font-size: 4vw;
+    text-transform: capitalize;
+}
+
+#box-head1 {
+    margin-left: 13.9vw;
+    font-size: .9vw;
+}
+
+#box-btn1 {
+    margin-left: 17vw;
+}
+
+#part5 {
+    height: 100vh;
+    width: 100%;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#part6{
+    height: 120vh;
+    background-color: #f5f5f7;
+    
+}
+#para-content{
+    margin: 0vh 20vh;
+    padding-top: 2vw;
+    border-bottom: 1px solid black  ;   
+}
+#para-content #second{
+    padding-top: 1vw;
+}
+#para-content #third{
+    padding-top: 1vw;
+}
+#para-content #fourth{
+    padding-top: 1vw;
+}
+#para-content #fivth{
+    padding-top: 1vw;
+}
+#footer{
+    margin: 0vh 20vh;
+    padding-top: 2vw;
+    border-bottom: 1px solid black;
+}
+#footer a{
+    display: block;
+    margin-top: .5vw;
+    
+}
+#all-contant{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 1vw;
+}
+#footer h5{
+    font-size: 1vw;
+    
+}
+#footer p{
+    margin: 0vw 13vh;
+    margin-top: 2vw;
+}
+#footer a:hover{
+    text-decoration: underline;
+}
+#wallet{
+    margin-top: 1vw;
+}
+#account{
+    margin-bottom: 4.8vw;
+}
+#store{
+    margin-bottom: 8.7vw;
+}
+#business ul{
+    margin-bottom:3.8vh;
+}
+#values{
+    margin-bottom: 1.8vw;
+}
